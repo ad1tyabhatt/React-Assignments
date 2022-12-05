@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+:root{
+  --border-radius:3rem;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.counter p {
+  text-align: center;
+  font-size: 8rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.counter .buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.counter .buttons button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 1.6px 0.6px gray;
+}
+
+.counter .buttons button#sub {
+  background-color: orangered;
+  color: #fff;
+}
+
+.counter .buttons button#add {
+  background-color: green;
+  color: #fff;
+}
