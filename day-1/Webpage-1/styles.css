@@ -51,7 +51,7 @@ body {
 }
 .product-class:hover {
    background-color: rgb(234, 238, 242);
-   transform: rotate(-5deg);
+   transform: rotate(-3deg);
 }
 
 .product-class:hover .listed {
