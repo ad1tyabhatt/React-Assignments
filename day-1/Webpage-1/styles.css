@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@300;400&display=swap");
 
 * {
    margin: 0;
@@ -21,8 +21,12 @@ body {
    padding-left: 3rem;
 }
 
-.listed{
-  font-size: 0.8rem;
+.listed {
+   font-size: 0.8rem;
+   /* padding: 0.5rem; */
+}
+.listed:nth-child() {
+   padding: 0.5rem;
 }
 .product-class {
    max-width: calc(100vw / 5);
@@ -32,27 +36,26 @@ body {
    border-radius: 0.5rem;
    cursor: pointer;
 }
-.light{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  color: rgb(72, 108, 122);
+.light {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 200;
+   color: rgb(72, 108, 122);
 }
 
 .listed {
-  opacity: 0;
-
+   opacity: 0;
 }
 .listed:hover,
 .listed:checked {
-  opacity: 1;
+   opacity: 1;
 }
 .product-class:hover {
    background-color: rgb(234, 238, 242);
    transform: rotate(-5deg);
 }
 
-.product-class:hover .listed{
-  opacity: 1;
+.product-class:hover .listed {
+   opacity: 1;
 }
 
 .inner {
@@ -68,6 +71,9 @@ body {
   grid-template-columns: 1fr 6rem 1fr;
   list-style: none;
 } */
+i {
+   padding: 5px;
+}
 
 .discount {
    background-color: greenyellow;
@@ -89,7 +95,6 @@ ul {
    display: block;
 }
 img {
-
    display: inline-block;
    vertical-align: middle;
    max-height: 100%;
@@ -98,7 +103,6 @@ img {
 
 .cardcheckbox {
    opacity: 0;
-
 }
 .cardcheckbox:hover,
 .cardcheckbox:checked {
